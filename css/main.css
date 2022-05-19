@@ -1,0 +1,126 @@
+/* Container holding the image and the text */
+.container-2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/css/fonts/GothamBlack.otf");
+}
+
+@font-face {
+  font-family: regular;
+  src: url("/css/fonts/G_ari_bd.TTF");
+}
+
+.heading-1{
+  font-family: myFirstFont;
+  font-size: 66px;
+}
+
+.text{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+}
+
+
+
+/* CSS */
+.button-58 {
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  /* text-transform:uppercase; */
+  background-color: #F9423A;;
+  border: 2px solid #F9423A;;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  /* font-family: Inter,sans-serif; */
+  /* font-size: 16px; */
+  /* font-weight: 600; */
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  /* line-height: 24px; */
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+
+.button-58:focus {
+  color: #171e29;
+}
+
+.button-58:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  fill: #F9423A !important;
+  color: #F9423A;
+}
+
+/* .button-58:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  fill: rgb(255, 255, 255);
+} */
+
+@media (min-width: 768px) {
+  .button-58 {
+    min-width: 170px;
+  }
+}
+
