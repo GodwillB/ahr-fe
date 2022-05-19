@@ -1,3 +1,19 @@
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.f-48{
+  font-size: 48px !important;
+}
+.ahr-sec-text{
+  color: #F9423A;
+}
+.ahr-pri-text{
+  color: #000000;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -78,6 +94,11 @@
 .text{
   font-family: 'DM Sans', sans-serif;
   font-size: 20px;
+}
+
+.border-right{
+  border-left: 3px solid #dc3545;
+  padding-left: 22px;
 }
 
 
