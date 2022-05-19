@@ -1,3 +1,22 @@
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(192, 192, 192);  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(192, 192, 192); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 192, 192); 
+}
 /* Container holding the image and the text */
 .container-2 {
   position: relative;
@@ -68,8 +87,8 @@
   align-items: center;
   font-family: 'DM Sans', sans-serif;
   /* text-transform:uppercase; */
-  background-color: #F9423A;;
-  border: 2px solid #F9423A;;
+  background-color: #F9423A;
+  border: 2px solid #F9423A;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -91,32 +110,19 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-
   font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 .button-58:focus {
   color: #171e29;
 }
 
-.button-58:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  fill: #F9423A !important;
-  color: #F9423A;
-}
-
-/* .button-58:active {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  fill: rgb(255, 255, 255);
-} */
 
 @media (min-width: 768px) {
   .button-58 {
@@ -124,3 +130,30 @@ text-transform: uppercase;
   }
 }
 
+
+
+
+.ahr-parent-sticky {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.ahr-menu-absolute{
+  position: absolute;
+  right: 0;
+  top: 70px;
+  z-index: 9999;
+
+}
+
+.ahr-chat-absolute{
+
+  position: absolute;
+  right: 0;
+  left: auto;
+  top: 430px;
+  z-index: 9999;
+
+}
