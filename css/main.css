@@ -3,10 +3,29 @@ html{
   overflow-x: hidden;
 }
 
+.ahr-sec-back{
+  background-color: #F9423A;
+}
+
 
 .f-48{
   font-size: 48px !important;
 }
+
+.f-24{
+  font-size: 24px !important;
+}
+
+
+.f-14{
+  font-size: 14px !important;
+}
+
+
+.f-16{
+  font-size: 16px !important;
+}
+
 .ahr-sec-text{
   color: #F9423A;
 }
@@ -86,6 +105,11 @@ html{
   src: url("/css/fonts/G_ari_bd.TTF");
 }
 
+.heading{
+  font-family: myFirstFont;
+  /* font-size: 66px; */
+}
+
 .heading-1{
   font-family: myFirstFont;
   font-size: 66px;
@@ -96,8 +120,19 @@ html{
   font-size: 20px;
 }
 
+.dm{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .border-right{
   border-left: 3px solid #dc3545;
+  padding-left: 22px;
+}
+
+.border-right-2{
+  border-left: 3px solid #ffffff;
   padding-left: 22px;
 }
 
@@ -112,6 +147,44 @@ html{
   border: 2px solid #F9423A;
   box-sizing: border-box;
   color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  /* font-family: Inter,sans-serif; */
+  /* font-size: 16px; */
+  /* font-weight: 600; */
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  /* line-height: 24px; */
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+
+/* CSS */
+.button-57 {
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  /* text-transform:uppercase; */
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  color: #F9423A;
   cursor: pointer;
   display: inline-flex;
   fill: #000;
@@ -199,4 +272,21 @@ flex-grow: 0;
 
 .owl-dots{
   display: none;
+}
+
+footer h3{
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+/* Red */
+
+color: #F9423A;
+}
+
+
+
+.fancy-submenu h3{
+  line-height: 20px;
 }
